@@ -1,0 +1,216 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+  Design tokens. Layout, typography and spacing are still extracted verbatim from
+  https://niec.edu.np/ (Elementor kit `elementor-kit-6`) — see docs/research/.
+
+  The BRAND PALETTE, however, has been re-themed away from the source site:
+    primary   #FC6E1F (orange) -> #2563EB (blue)
+    secondary #00ADEF (cyan)   -> #06B6D4 (cyan)
+    accent    (none)           -> #8B5CF6 (violet), used for the accent gradient
+
+  Tokens whose hue changed were renamed `brand-*` so no name lies about its value
+  (a `niec-orange` holding a blue is a trap). Neutrals that did not change keep
+  their original `niec-*` names. The `.spec.md` files under docs/research/ still
+  record the SOURCE site's orange values — that is the extraction audit trail and
+  is deliberately left alone.
+*/
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-sans: var(--font-satoshi), "Satoshi", sans-serif;
+  --font-heading: var(--font-satoshi), "Satoshi", sans-serif;
+  --font-mono: ui-monospace, monospace;
+
+  /* --- Brand palette (re-themed; see header note) --- */
+  --color-brand-primary: #2563eb; /* buttons, links, active nav, bullets      */
+  --color-brand-secondary: #06b6d4; /* hero + testimonial carousel bullets      */
+  --color-brand-accent: #8b5cf6; /* accent gradient end-stop                 */
+  --color-brand-primary-soft: #93b4f7; /* light primary (decorative)               */
+
+  /* Section washes. Two alternating tints, kept clearly distinguishable:
+     `brand-tint` leans violet (accent), `niec-sky` leans blue (primary). */
+  --color-brand-tint: #f3f0ff; /* replaces the old peach #fff5f0           */
+  --color-niec-sky: #f1f7ff; /* pale blue section bg (unchanged)         */
+
+  /* --- Neutrals (unchanged from the source kit) --- */
+  --color-niec-ink: #111111; /* --e-global-color-text      */
+  --color-niec-grey: #a4a4a4; /* --e-global-color-accent    */
+  --color-niec-white: #ffffff;
+  --color-niec-offwhite: #fdfdfd;
+  --color-niec-footer: #fafafa; /* footer link bar background */
+
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  /* Elementor container width: 1200px, 1024px @<=1024, 767px @<=767 */
+  --niec-container: 1200px;
+
+  --background: #ffffff;
+  --foreground: #111111;
+  --card: #ffffff;
+  --card-foreground: #111111;
+  --popover: #ffffff;
+  --popover-foreground: #111111;
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+  --secondary: #06b6d4;
+  --secondary-foreground: #ffffff;
+  --muted: #f1f7ff;
+  --muted-foreground: #a4a4a4;
+  --accent: #f3f0ff;
+  --accent-foreground: #111111;
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: #2563eb;
+  --chart-1: #2563eb;
+  --chart-2: #06b6d4;
+  --chart-3: #8b5cf6;
+  --chart-4: #93b4f7;
+  --chart-5: #a4a4a4;
+  --radius: 0.625rem;
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: #111111;
+  --sidebar-primary: #2563eb;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f3f0ff;
+  --sidebar-accent-foreground: #111111;
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: #2563eb;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-size: 16px;
+  }
+  html {
+    @apply font-sans;
+  }
+
+  /* Elementor kit heading scale (desktop) */
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  h4 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  h5 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  h6 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  /*
+    Centred content column used by every section on the source site.
+    Mirrors Elementor's `.e-con` + `.e-con-inner` pair: the section is full-width with a
+    20px inline padding, and the *content* column inside that padding is 1200px.
+
+    So the 20px gutter has to sit OUTSIDE the 1200px, not inside it — hence the `+ 40px`.
+    With `box-sizing: border-box` a plain `max-width: 1200px` would have left only a
+    1160px content column, i.e. every section 40px narrower than the source.
+  */
+  .niec-container {
+    width: 100%;
+    max-width: calc(var(--niec-container) + 40px);
+    margin-inline: auto;
+    padding-inline: 20px;
+  }
+
+  /*
+    Brand accent gradient: primary -> accent (blue -> violet).
+    `.brand-gradient` paints it as a background; `.brand-gradient-text` clips it to
+    the glyphs for gradient headings.
+  */
+  .brand-gradient {
+    background-image: linear-gradient(
+      135deg,
+      var(--color-brand-primary) 0%,
+      var(--color-brand-accent) 100%
+    );
+  }
+
+  .brand-gradient-text {
+    background-image: linear-gradient(
+      135deg,
+      var(--color-brand-primary) 0%,
+      var(--color-brand-accent) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
+
+/*
+  Marquee used by the "Our Offices" footer carousel: Swiper running with
+  autoplay delay 0 + speed 10000ms + linear easing, i.e. a continuous drift.
+*/
+@keyframes niec-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

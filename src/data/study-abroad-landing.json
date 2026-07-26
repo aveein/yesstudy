@@ -1,0 +1,122 @@
+{
+  "hero": {
+    "title": "Study Abroad",
+    "intro": "Higher education is an integral part of a student’s life and pursuing higher education in abroad countries has become a popular trend.",
+    "image": "/images/study-abroad-website-banner-2025-new.png",
+    "imageAlt": "Best Consultancy in Nepal for Australia",
+    "nav": [
+      {
+        "href": "#overview",
+        "label": "Overview"
+      },
+      {
+        "href": "#class",
+        "label": "Our Classes"
+      },
+      {
+        "href": "#get",
+        "label": "What you get"
+      },
+      {
+        "href": "#started",
+        "label": "Get Started"
+      }
+    ]
+  },
+  "overview": {
+    "eyebrow": "Overview",
+    "heading": "NIEC Eases Post-Exam Stress: Expert Counsel for Higher Education Abroad",
+    "body": "Once the students take their final exams at various local testing centers, NIEC counsels prospective students for their higher education in popular study destinations like Australia, USA, UK, Canada, New Zealand and Ireland. Selecting the right college/ university and course is usually very challenging for students but our well trained counselors provide you with all the necessary information including application procedures, entry requirements, immigration rules and visa application procedures. NIEC’s study abroad counselors undergo an intensive training before they are delegated to provide any information on college/ universities or visa application processes.",
+    "image": "/images/layer-660.png"
+  },
+  "destinations": {
+    "eyebrow": "Study Abroad",
+    "heading": "Expert guidance for study abroad success",
+    "cards": [
+      {
+        "country": "USA",
+        "href": "/study-abroad/study-in-usa/",
+        "image": "/images/usa.jpg",
+        "cta": "Read More"
+      },
+      {
+        "country": "Australia",
+        "href": "/study-abroad/study-in-australia/",
+        "image": "/images/australia.jpg",
+        "cta": "Read More"
+      }
+    
+    ]
+  },
+  "whatYouGet": {
+    "eyebrow": "What you get",
+    "heading": "NIEC offers test preparation classes for SAT, GRE, GMAT, IELTS, TOEFL and PTE",
+    "body": "Our certified and highly experienced instructors help you achieve your required scores delivering the courses in the most simplified techniques. NIEC also offers mock tests for students where our instructors follow the standard guidelines for assessment in order to advice you on your strengths and weaknesses."
+  },
+  "services": {
+    "cards": [
+      {
+        "title": "The Best Counselors",
+        "image": "/images/s1.png",
+        "paragraphs": [
+          "Studying abroad can be a life- changing experience and students require the right guidance and support from experienced study abroad consultants. Our counselors are qualified with intensive training and years of experience to help you in making crucial decisions involved in studying abroad.",
+          "From helping you select your course and university to presenting your applications in the best way possible, our counselors are the best that makes NIEC your one-stop solution for studying abroad."
+        ]
+      },
+      {
+        "title": "Career Counseling",
+        "image": "/images/s2.png",
+        "paragraphs": [
+          "NIEC helps you make an informed career decision with our career counseling services available for students who are struggling to make career or educational decisions. With unbiased advices and moral support, you can discover yourself with the right direction to your thoughts.",
+          "Career counseling at NIEC aims to get you an insight about yourself, your career, your education in order to help you make an informed decision. Our counselors will consider your personal interests, your personality and skills, your strengths and weaknesses to facilitate suitable career and education choices."
+        ]
+      },
+      {
+        "title": "Universities and Courses",
+        "image": "/images/s3.png",
+        "paragraphs": [
+          "NIEC being a part of worldwide network of universities and colleges in popular study destinations provides you with hundreds of universities and thousands of courses to choose from.",
+          "Just think of what you want to study and you will be offered a wide range of study options to consider. With guidance from our expert counselors to help you select your university and course, you can easily find your best fit!"
+        ]
+      },
+      {
+        "title": "SOP Writing Workshops",
+        "image": "/images/s4.png",
+        "paragraphs": [
+          "Students often struggle to write their Statement of Purpose (SOP) or Personal Statement which is a crucial part of the admission process. Writing is usually a time taking process and our writing workshops will help you simply it.",
+          "Students who attend the SOP writing workshops are able to understand the guidelines they need to keep in mind when writing. Useful language structures and vocabulary will enable you to easily organize your writing and the practice of proof reading and editing will help you get the best version of your final draft."
+        ]
+      },
+      {
+        "title": "Scholarships",
+        "image": "/images/s5.png",
+        "paragraphs": [
+          "International students are eligible for a wide range of scholarships and financial aids which will vary on the choice of your course, university and your study abroad destination.",
+          "With NIEC’s guidance you can easily discover various scholarships and financial aids that will help you ease your financial burden. You can learn about the requirements and the processes on how you can achieve it."
+        ]
+      },
+      {
+        "title": "Interview Preparation",
+        "image": "/images/s6.png",
+        "paragraphs": [
+          "Students can be interviewed by the university during their admission process or by the visa officers before issuing their student visas. Our interview preparation can help you understand what to expect in the interviews and you can even practice with us."
+        ]
+      },
+      {
+        "title": "Pre-departure Session",
+        "image": "/images/s7.png",
+        "paragraphs": [
+          "NIEC’s pre-departure session focuses on delivering information for students who will be travelling to study abroad. It includes useful tips on how you can start your student life in an entirely new place. We try our best to help you with information on what you need to pack and what you can expect at your arrival in the different airports. The pre-departure session will help you become ready for your new life as an international student."
+        ]
+      }
+    ],
+    "cta": {
+      "eyebrow": "Get in touch",
+      "heading": "Ready to get started? Get started",
+      "body": "Thank you for your interest in reaching out to us. Please click the ‘Get Started’ button below to begin your international academic journey.",
+      "buttonLabel": "GET STARTED",
+      "buttonHref": "/contact-us/",
+      "image": "/images/8-e1712645895727.jpg"
+    }
+  }
+}

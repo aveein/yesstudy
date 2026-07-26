@@ -1,0 +1,140 @@
+{
+  "banner": {
+    "title": "Founder’s Message",
+    "subtitle": "Ambika Amatya",
+    "breadcrumb": [
+      "Home",
+      "/ Founder’s Message"
+    ]
+  },
+  "blocks": [
+    {
+      "id": "3cb4bd9",
+      "layout": "image-left",
+      "background": "white",
+      "columns": [
+        40,
+        70
+      ],
+      "gap": 50,
+      "marginY": 60,
+      "paddingY": 10,
+      "image": {
+        "src": "/images/ambika2.jpeg",
+        "alt": "Best Consultancy in Nepal for USA , Australia",
+        "width": 370,
+        "height": 532
+      },
+      "paragraphs": [
+        [
+          {
+            "text": "Dear Students and Parents,",
+            "bold": false
+          }
+        ],
+        [
+          {
+            "text": "I founded YES STUDY in Nepal in 2014 with a singular mission: to make international education transparent and achievable for Nepali students.",
+            "bold": false
+          }
+        ],
+        [
+          {
+            "text": "Following our successful expansion and registration as Yes Study Australia in 2016, we officially established Yes Study USA in June 2026 to better serve our growing student community. Today, we operate seamlessly across Nepal, Australia, and the United States to support you at every milestone of your journey.",
+            "bold": false
+          }
+        ],
+        [
+          {
+            "text": "We take compliance and your future seriously. Our operations are fully licensed by the Ministry of Education (MOE) in Nepal, and our entire team across Nepal and Australia consists of TITI-certified counselors and registered migration agents. From strategic career mapping to rigorous financial planning and licensed legal advisory for visa compliance we guide students and parents with honest, certified expertise.",
+            "bold": false
+          }
+        ]
+      ]
+    },
+    {
+      "id": "20db9c6",
+      "layout": "image-right",
+      "background": "sky",
+      "columns": [
+        60,
+        40
+      ],
+      "gap": 40,
+      "marginY": 0,
+      "paddingY": 60,
+      "image": {
+        "src": "/images/webpc-passthru-9-1.webp",
+        "alt": "Best Consultancy in Nepal for USA, UK, Australia, Canada, Ireland, New Zealand and Germany",
+        "width": 370,
+        "height": 270
+      },
+      "paragraphs": [
+        [
+          {
+            "text": "Unwavering focus and unswerving commitment are imperative, as I’ve said before, and without them, you will not be able to do as much as you could have been able to. Talent is a quality in abundance. It’s what you choose to do with your God given gifts that decides who and what you will be in the future. ",
+            "bold": false
+          },
+          {
+            "text": "Your greatest resource is yourself, and if utilized properly, this is the most powerful resource in the world. ",
+            "bold": true
+          },
+          {
+            "text": "It is important for you to realize your own worth and then decide how to utilize it.",
+            "bold": false
+          }
+        ]
+      ]
+    },
+    {
+      "id": "decd8dc",
+      "layout": "quote",
+      "background": "white",
+      "columns": null,
+      "gap": null,
+      "marginY": 0,
+      "paddingY": 40,
+      "image": null,
+      "paragraphs": [
+        [
+          {
+            "text": "Realizing that you yourself are your most powerful resource is the first step. The choices you make play a huge role too in helping you realize your full potential. A skilled guide, a firm hand, a sophisticated approach that does not forget the basics and most importantly, honest advice are things you need primarily. Choose well today, for you are choosing your tomorrow.",
+            "bold": true
+          }
+        ]
+      ]
+    },
+    {
+      "id": "e007dc7",
+      "layout": "image-left",
+      "background": "sky",
+      "columns": [
+        40,
+        60
+      ],
+      "gap": 40,
+      "marginY": 0,
+      "paddingY": 60,
+      "image": {
+        "src": "/images/webpc-passthru-10-1.webp",
+        "alt": "Best Consultancy in Nepal for USA, UK, Australia, Canada, Ireland, New Zealand and Germany",
+        "width": 350,
+        "height": 234
+      },
+      "paragraphs": [
+        [
+          {
+            "text": "I see a bright future for you, but I also see a lot of responsibilities that have to be fulfilled by you so that you can reach your full potential. Take care, for your today is going to define your tomorrows. Lastly, if you need a friend, feel free to mail me at sapana@niec.edu.np.",
+            "bold": false
+          }
+        ],
+        [
+          {
+            "text": "All the best for your future plans!",
+            "bold": true
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "file": "01-reset.css",
+    "url": "https://niec.edu.np/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.9",
+    "bytes": 5496
+  },
+  {
+    "file": "02-theme.css",
+    "url": "https://niec.edu.np/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.9",
+    "bytes": 5093
+  },
+  {
+    "file": "03-header-footer.css",
+    "url": "https://niec.edu.np/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.9",
+    "bytes": 7180
+  },
+  {
+    "file": "04-style.css",
+    "url": "https://niec.edu.np/wp-content/themes/hello-elementor-child/style.css?ver=7.0.2",
+    "bytes": 2683
+  },
+  {
+    "file": "05-frontend.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.0",
+    "bytes": 54666
+  },
+  {
+    "file": "06-post-6.css",
+    "url": "https://niec.edu.np/wp-content/uploads/elementor/css/post-6.css?ver=1785032846",
+    "bytes": 6103
+  },
+  {
+    "file": "07-widget-image.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.0",
+    "bytes": 214
+  },
+  {
+    "file": "08-widget-nav-menu.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=3.35.1",
+    "bytes": 27363
+  },
+  {
+    "file": "09-widget-heading.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.0",
+    "bytes": 560
+  },
+  {
+    "file": "10-widget-form.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css?ver=3.35.1",
+    "bytes": 6798
+  },
+  {
+    "file": "11-swiper.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
+    "bytes": 16471
+  },
+  {
+    "file": "12-e-swiper.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.2.0",
+    "bytes": 5486
+  },
+  {
+    "file": "13-widget-loop-common.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor-pro/assets/css/widget-loop-common.min.css?ver=3.35.1",
+    "bytes": 208
+  },
+  {
+    "file": "14-widget-loop-carousel.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor-pro/assets/css/widget-loop-carousel.min.css?ver=3.35.1",
+    "bytes": 8373
+  },
+  {
+    "file": "15-widget-icon-list.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.0",
+    "bytes": 10255
+  },
+  {
+    "file": "16-widget-social-icons.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.2.0",
+    "bytes": 5110
+  },
+  {
+    "file": "17-apple-webkit.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.2.0",
+    "bytes": 6713
+  },
+  {
+    "file": "18-widget-divider.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.0",
+    "bytes": 4258
+  },
+  {
+    "file": "19-popup.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.35.1",
+    "bytes": 995
+  },
+  {
+    "file": "20-all.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.6.28",
+    "bytes": 59344
+  },
+  {
+    "file": "21-v4-shims.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=4.2.0",
+    "bytes": 26702
+  },
+  {
+    "file": "22-widget-loop-grid.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor-pro/assets/css/widget-loop-grid.min.css?ver=3.35.1",
+    "bytes": 13213
+  },
+  {
+    "file": "23-post-3050.css",
+    "url": "https://niec.edu.np/wp-content/uploads/elementor/css/post-3050.css?ver=1785042130",
+    "bytes": 25171
+  },
+  {
+    "file": "24-post-2857.css",
+    "url": "https://niec.edu.np/wp-content/uploads/elementor/css/post-2857.css?ver=1785032846",
+    "bytes": 10307
+  },
+  {
+    "file": "25-post-3223.css",
+    "url": "https://niec.edu.np/wp-content/uploads/elementor/css/post-3223.css?ver=1785032847",
+    "bytes": 23817
+  },
+  {
+    "file": "26-post-5542.css",
+    "url": "https://niec.edu.np/wp-content/uploads/elementor/css/post-5542.css?ver=1785032847",
+    "bytes": 3552
+  },
+  {
+    "file": "27-widget-spacer.min.css",
+    "url": "https://niec.edu.np/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.0",
+    "bytes": 1793
+  }
+]

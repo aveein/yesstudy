@@ -1,0 +1,86 @@
+.elementor-kit-6{--e-global-color-primary:#FC6E1F;--e-global-color-secondary:#00ADEF;--e-global-color-text:#111111;--e-global-color-accent:#A4A4A4;--e-global-color-803f4dc:#FFFFFF;--e-global-color-cf9680f:#FFF5F0;--e-global-color-a86860a:#F1F7FF;--e-global-color-fffd53e:#FDFDFD;--e-global-color-5cfed48:#FFAE81;--e-global-color-90e765e:#FCD51F;--e-global-typography-primary-font-family:"Satoshi";--e-global-typography-primary-font-size:40px;--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Satoshi Variable";--e-global-typography-secondary-font-size:28px;--e-global-typography-secondary-font-weight:700;--e-global-typography-text-font-family:"Satoshi Variable";--e-global-typography-text-font-size:16px;--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Satoshi Variable";--e-global-typography-accent-font-weight:500;background-color:var( --e-global-color-803f4dc );color:var( --e-global-color-text );font-family:"Satoshi", Sans-serif;font-size:16px;}.elementor-kit-6 button,.elementor-kit-6 input[type="button"],.elementor-kit-6 input[type="submit"],.elementor-kit-6 .elementor-button{background-color:var( --e-global-color-primary );color:var( --e-global-color-803f4dc );border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-primary );border-radius:100px 100px 100px 100px;padding:12px 24px 12px 24px;}.elementor-kit-6 button:hover,.elementor-kit-6 button:focus,.elementor-kit-6 input[type="button"]:hover,.elementor-kit-6 input[type="button"]:focus,.elementor-kit-6 input[type="submit"]:hover,.elementor-kit-6 input[type="submit"]:focus,.elementor-kit-6 .elementor-button:hover,.elementor-kit-6 .elementor-button:focus{background-color:#FFFFFF00;color:var( --e-global-color-primary );}.elementor-kit-6 e-page-transition{background-color:#FFBC7D;}.elementor-kit-6 a{color:var( --e-global-color-text );font-family:"Satoshi", Sans-serif;}.elementor-kit-6 a:hover{color:var( --e-global-color-primary );}.elementor-kit-6 h1{color:var( --e-global-color-text );font-family:"Satoshi", Sans-serif;font-size:40px;font-weight:bold;}.elementor-kit-6 h2{color:var( --e-global-color-text );font-family:"Satoshi", Sans-serif;font-size:32px;font-weight:bold;}.elementor-kit-6 h3{color:var( --e-global-color-text );font-family:"Satoshi", Sans-serif;font-size:28px;font-weight:bold;}.elementor-kit-6 h4{color:var( --e-global-color-text );font-family:"Satoshi", Sans-serif;font-size:24px;font-weight:bold;}.elementor-kit-6 h5{color:var( --e-global-color-text );font-family:"Satoshi", Sans-serif;font-size:20px;font-weight:bold;}.elementor-kit-6 h6{color:var( --e-global-color-text );font-family:"Satoshi", Sans-serif;font-size:16px;font-weight:bold;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1200px;}.e-con{--container-max-width:1200px;}.elementor-widget:not(:last-child){margin-block-end:30px;}.elementor-element{--widgets-spacing:30px 30px;--widgets-spacing-row:30px;--widgets-spacing-column:30px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Satoshi';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2024/02/Satoshi-Regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Satoshi';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2024/02/Satoshi-Light.woff') format('woff');
+}
+@font-face {
+	font-family: 'Satoshi';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2024/02/Satoshi-Medium.woff') format('woff');
+}
+@font-face {
+	font-family: 'Satoshi';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2024/02/Satoshi-Bold.woff') format('woff');
+}
+@font-face {
+	font-family: 'Satoshi';
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2024/02/Satoshi-Black.woff') format('woff');
+}
+@font-face {
+	font-family: 'Satoshi';
+	font-style: italic;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2024/02/Satoshi-Italic.woff') format('woff');
+}
+@font-face {
+	font-family: 'Satoshi';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2024/02/Satoshi-BoldItalic.woff') format('woff');
+}
+@font-face {
+	font-family: 'Satoshi';
+	font-style: italic;
+	font-weight: 900;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2024/02/Satoshi-BlackItalic.woff') format('woff');
+}
+@font-face {
+	font-family: 'Satoshi';
+	font-style: italic;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2024/02/Satoshi-MediumItalic.woff') format('woff');
+}
+@font-face {
+	font-family: 'Satoshi';
+	font-style: italic;
+	font-weight: 300;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2024/02/Satoshi-LightItalic.woff') format('woff');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Satoshi Variable';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2025/07/Satoshi-Variable.woff') format('woff');
+}
+@font-face {
+	font-family: 'Satoshi Variable';
+	font-style: italic;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://niec.edu.np/wp-content/uploads/2025/07/Satoshi-VariableItalic.woff') format('woff');
+}
+/* End Custom Fonts CSS */
