@@ -35,7 +35,7 @@ export default function StudyInAustraliaPage() {
           cards={page.universities.cards}
         />
         <FaqAccordion heading={page.faq.heading} items={page.faq.items} />
-        <CtaCarousel heading={page.cta.heading} cards={page.cta.cards} />
+        {/* <CtaCarousel heading={page.cta.heading} cards={page.cta.cards} /> */}
         <ContactSection />
         <OurOfficesSection />
       </main>

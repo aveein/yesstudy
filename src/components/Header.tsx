@@ -228,14 +228,16 @@ export function Header() {
       {/* Desktop: static (non-sticky), full-bleed bar with a translucent pill nav. */}
       <div className="relative z-[100] hidden w-full items-center px-[40px] pt-[10px] pb-[20px] lg:flex">
         <div className="flex w-full flex-row items-center gap-[30px] rounded-[40px] bg-white/64 px-[15px] py-[5px] shadow-[0px_5px_10px_0px_rgba(0,0,0,0.06)] backdrop-blur-[10px]">
-          <Image
-            src={LOGO_SRC}
-            alt={LOGO_ALT}
-            width={800}
-            height={400}
-            priority
-            className="h-auto w-[165px]"
-          />
+          <Link href="/" className="shrink-0">
+            <Image
+              src={LOGO_SRC}
+              alt={LOGO_ALT}
+              width={800}
+              height={400}
+              priority
+              className="h-auto w-[165px]"
+            />
+          </Link>
           <nav className="flex grow flex-row items-center justify-end gap-[10px]">
             {NAV.map((item) => (
               <DesktopNavLink key={item.href} item={item} pathname={pathname} />
@@ -252,14 +254,16 @@ export function Header() {
 
       {/* Mobile: solid bar + tap-to-expand panel. */}
       <div className="relative z-[100] flex items-center bg-white px-[20px] py-[15px] lg:hidden">
-        <Image
-          src={LOGO_SRC}
-          alt={LOGO_ALT}
-          width={800}
-          height={400}
-          priority
-          className="h-auto w-[165px]"
-        />
+        <Link href="/">
+          <Image
+            src={LOGO_SRC}
+            alt={LOGO_ALT}
+            width={800}
+            height={400}
+            priority
+            className="h-auto w-[165px]"
+          />
+        </Link>
         <button
           type="button"
           onClick={() => setMobileOpen((open) => !open)}
