@@ -30,7 +30,7 @@ export default function Home() {
         <FeaturedUniversitiesSection />
         <TestimonialsSection />
         <CareerPathSection />
-        <BlogSection />
+        {/* <BlogSection /> */}
         {/* <VideoSection /> */}
         <ContactSection />
         <OurOfficesSection />
