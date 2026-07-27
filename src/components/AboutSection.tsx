@@ -24,11 +24,6 @@ function StatCounter({ stat, active }: { stat: Stat; active: boolean }) {
       "(prefers-reduced-motion: reduce)"
     ).matches;
 
-    if (reduceMotion) {
-      setCount(stat.value);
-      return;
-    }
-
     let frameId: number;
     const startTime = performance.now();
 
@@ -40,7 +35,12 @@ function StatCounter({ stat, active }: { stat: Stat; active: boolean }) {
       }
     };
 
-    frameId = requestAnimationFrame(step);
+    if (reduceMotion) {
+      frameId = requestAnimationFrame(() => setCount(stat.value));
+    } else {
+      frameId = requestAnimationFrame(step);
+    }
+
     return () => cancelAnimationFrame(frameId);
   }, [active, stat.value]);
 
