@@ -8,7 +8,7 @@ const SLIDES: HeroSlide[] = [
   {
     title: "Study Abroad",
     description:
-      "Discover top destinations for education: USA, UK, Australia, Canada, New Zealand, Ireland, and Germany for global opportunities.",
+      "Discover top destinations for education: USA and Australia for global opportunities.",
     ctaLabel: "Learn More",
     ctaHref: "/study-abroad/",
     image: "/images/study-abroad-website-banner-2025-new.png",

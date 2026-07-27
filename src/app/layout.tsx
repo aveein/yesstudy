@@ -26,7 +26,7 @@ const satoshi = localFont({
 export const metadata: Metadata = {
   title: "Best Consultancy in Nepal 2026 - Yes Study Kathmandu",
   description:
-    "Yes Study is one of the Best Consultancy in Nepal for USA, UK, Australia, Canada, New Zealand, Ireland, and Germany. We provide the best IELTS, PTE, TOEFL, SAT, GRE, and GMAT classes in Kathmandu, Nepal.",
+    "Yes Study is one of the Best Consultancy in Nepal for USA and Australia. We provide the best IELTS, PTE, TOEFL, SAT, GRE, and GMAT classes in Kathmandu, Nepal.",
   icons: {
     icon: "/seo/favicon.png",
     apple: "/seo/favicon.png",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Consultancy in Nepal 2026 - Yes Study Kathmandu",
     description:
-      "Yes Study is one of the Best Consultancy in Nepal for USA, UK, Australia, Canada, New Zealand, Ireland, and Germany.",
+      "Yes Study is one of the Best Consultancy in Nepal for USA and Australia.",
     images: ["/seo/og-image.png"],
     type: "website",
   },

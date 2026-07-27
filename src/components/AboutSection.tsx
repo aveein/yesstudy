@@ -95,34 +95,8 @@ export function AboutSection() {
                 USA
               </a>
               ,{" "}
-              <a href="/study-abroad/study-in-uk/" className={HEADING_LINK_CLASS}>
-                UK
-              </a>
-              ,{" "}
-              <a
-                href="/study-abroad/study-in-australia/"
-                className={HEADING_LINK_CLASS}
-              >
+              <a href="/study-abroad/study-in-australia/" className={HEADING_LINK_CLASS}>
                 Australia
-              </a>
-              ,{" "}
-              <a href="/study-abroad/study-in-canada/" className={HEADING_LINK_CLASS}>
-                Canada
-              </a>
-              ,{" "}
-              <a
-                href="/study-abroad/study-in-new-zealand/"
-                className={HEADING_LINK_CLASS}
-              >
-                New Zealand
-              </a>
-              ,{" "}
-              <a href="/study-abroad/study-in-ireland/" className={HEADING_LINK_CLASS}>
-                Ireland
-              </a>
-              , and{" "}
-              <a href="/study-abroad/study-in-germany/" className={HEADING_LINK_CLASS}>
-                Germany
               </a>
               . We provide the best{" "}
               <a href="/course/ielts/" className={HEADING_LINK_CLASS}>
